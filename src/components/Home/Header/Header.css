@@ -1,0 +1,10 @@
+.header {
+    height: 600px;
+    position: relative;
+    background-image: url('../../../images/Captjdasdsfhurre.png');
+    background-size: cover;
+}
+
+#brand-image {
+    width: 500px;
+}

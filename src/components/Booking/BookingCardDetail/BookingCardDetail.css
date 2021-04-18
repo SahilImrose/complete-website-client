@@ -1,0 +1,18 @@
+.BookingCardDetail{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 50px;
+}
+@media(max-width: 1150px){
+    .BookingCardDetail{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media(max-width: 750px){
+    .BookingCardDetail{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+}

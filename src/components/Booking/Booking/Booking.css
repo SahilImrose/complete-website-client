@@ -1,0 +1,24 @@
+#BookingHeader {
+    margin-bottom: 800px;
+}
+@media(max-width: 1200px) {
+    #BookingHeader {
+        margin-bottom: 1900px;
+    }
+}
+
+@media(max-width: 770px) {
+    #BookingHeader {
+        margin-bottom: 30px;
+    }
+}   
+@media(max-width: 780px) {
+    #BookingHeader {
+        margin-bottom: 2000px;
+    }
+}
+@media(max-width: 790px) {
+    #BookingHeader {
+        margin-bottom: 2900px;
+    }
+}
