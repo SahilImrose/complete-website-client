@@ -28,7 +28,7 @@ const BookingModal = ({ closeModal, modalIsOpen, services, date }) => {
     const orderDetails = {email:servicesData.email, services:services.name,shipment: servicesData, paymentId, orderTime: new Date() };
     console.log(orderDetails)
     
-    fetch('http://localhost:8080/addOrder', {
+    fetch('https://mighty-lake-67206.herokuapp.com/addOrder', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(orderDetails)

@@ -13,7 +13,7 @@ const AddServices = () => {
             Name: data.Name,
             imageURL: imageUrl}
         
-        const url = `http://localhost:8080/addReview`
+        const url = `https://mighty-lake-67206.herokuapp.com/addReview`
         console.log(reviewData)
         console.log(data)
         fetch(url, { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify(reviewData) })

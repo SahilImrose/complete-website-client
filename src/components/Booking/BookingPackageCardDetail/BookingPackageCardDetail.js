@@ -11,7 +11,7 @@ const BookingCardDetail = ({ services, date }) => {
     setIsOpen(false);
   }
   return (
-    <div style={{ backgroundColor: 'azure', width: '250px', margin: '10px', paddingTop: '10px', paddingBottom: '10px' }} className="col-md-3">
+    <div id="BookingPackageCardDetail" style={{ backgroundColor: 'azure', width: '250px', margin: '10px', paddingTop: '10px', paddingBottom: '10px' }} className="col-md-3">
       <h1>{services.name}</h1>
       <h3>{services.price}</h3>
       <div className="d-flex mt-5"> <i className={services.avilableOne}></i>

@@ -11,7 +11,7 @@ const AddAdmin = () => {
             email: data.email
         }
         
-        const url = `http://localhost:8080/addAdmin`
+        const url = `https://mighty-lake-67206.herokuapp.com/addAdmin`
         console.log(Admin)
         console.log(data)
         fetch(url, { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify(Admin) })

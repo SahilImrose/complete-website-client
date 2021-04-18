@@ -5,7 +5,7 @@ const BookingCard = ({ date }) => {
   console.log(date)
     const [services, setServices] = useState([])
     useEffect(()=>{
-        fetch('http://localhost:8080/service')
+        fetch('https://mighty-lake-67206.herokuapp.com/service')
         .then(res => res.json())
         .then(data => setServices(data))
     },[])

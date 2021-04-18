@@ -9,7 +9,7 @@ const AdminPrivateRoute = ({ children, ...rest }) => {
       <Route
         {...rest}
         render={({ location }) =>
-          (loggedInUser.email || sessionStorage.getItem('email')) ? (
+          (loggedInUser.email || sessionStorage.getItem('token')) ? (
             children
           ) : (
             <Redirect

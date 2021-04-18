@@ -37,8 +37,8 @@ function Login() {
           name: displayName,
           email: email,
           photo: photoURL
-        }
-        sessionStorage.setItem("email",user2.email);
+        };
+        setUserToken();
         setLoggedInUser(singInGoogle)
         history.replace(from)
         setUser(singInGoogle)

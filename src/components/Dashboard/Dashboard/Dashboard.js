@@ -2,7 +2,6 @@ import React from 'react';
 import Sidebar from '../Sidebar/Sidebar';
 import 'react-calendar/dist/Calendar.css';
 import Orders from '../Orders/Orders';
-import AdminFilter from '../AdminFilter/AdminFilter';
 import Navbar from '../../Shared/Navbar/Navbar';
 
 const containerStyle = {

@@ -1,7 +1,7 @@
 .testimonial {
     position: absolute;
     left: 50%;
-    bottom: -2100px;
+    bottom: -2200px;
 }
 @media(max-width:1200px){
     .testimonial {

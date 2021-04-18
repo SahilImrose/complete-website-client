@@ -14,7 +14,7 @@ const AddServices = () => {
             price:data.price,
             imageURL: imageUrl}
         
-        const url = `http://localhost:8080/addService`
+        const url = `https://mighty-lake-67206.herokuapp.com/addService`
         console.log(eventData)
         console.log(data)
         fetch(url, { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify(eventData) })
